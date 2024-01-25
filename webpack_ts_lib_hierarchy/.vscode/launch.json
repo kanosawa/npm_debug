@@ -8,11 +8,11 @@
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome against localhost",
-      "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}",
+      "url": "http://localhost:3000/hoge/",
+      "webRoot": "${workspaceFolder}/hoge",
       "sourceMaps": true,
       "sourceMapPathOverrides": {
-        "webpack:///./*": "${workspaceFolder}/hoge/*"
+        "webpack://myLibrary/*": "${webRoot}/*",
       },
     }
   ]

@@ -1,5 +1,4 @@
 {
-  "name": "webpack_ts",
   "devDependencies": {
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",

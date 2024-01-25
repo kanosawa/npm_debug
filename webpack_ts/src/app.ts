@@ -6,4 +6,4 @@ const coupon: number = 300;
 const total: number = add(a, b);
 const final: number = sub(total, coupon);
 
-document.body.textContent = `Your final total is $${final}`;
+document.body.textContent = `Your final total is ${final}`;

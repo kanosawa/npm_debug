@@ -12,5 +12,6 @@ module.exports = {
         library: '[name]',
         libraryTarget: 'umd'
     },
-    mode: 'production'
+    devtool: 'source-map',
+    mode: 'development'
 };

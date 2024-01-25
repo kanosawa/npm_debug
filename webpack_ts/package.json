@@ -1,8 +1,5 @@
 {
   "name": "webpack_ts",
-  "scripts": {
-    "start": "webpack-cli serve --mode development"
-  },
   "devDependencies": {
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",

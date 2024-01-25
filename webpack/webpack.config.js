@@ -7,14 +7,5 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'source-map',
-  devServer: {
-    static: [
-      {
-        directory: path.resolve(__dirname, './'),
-      }
-    ],
-    devMiddleware: {
-      writeToDisk: true,
-    },
-  },
+  mode: 'development'
 };

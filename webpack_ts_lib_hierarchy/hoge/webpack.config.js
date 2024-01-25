@@ -17,8 +17,8 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'myLibrary',
-    libraryTarget: 'umd'
+    // library: 'myLibrary',
+    // libraryTarget: 'umd'
   },
   devtool: 'source-map',
   mode: 'development'
